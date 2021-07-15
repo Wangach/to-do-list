@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	box-sizing: border-box;
+	margin: 3rem;
+}
+#cover {
+	height: 50vh;
+	width: 60vh;
+	margin: 0 auto;
+	padding: 2rem;
+}
+#holder {
+	height: 20rem;
+	display: flex;
+}
+.login {
+	flex: 1;
+	margin: 20px 0px 0px 5px;
+}
+.signup {
+	flex: 1;
+	margin: 20px auto 0px;
+}
+.btn {
+	padding: 10px;
+	border-radius: 3px;
+}
+.btn-login {
+	color: #fff;
+	background: rgba(0, 193, 79, 0.75);
+	border: none;
+}
+.btn-signup {
+	background: rgba(22, 147, 245, .75);
+	border: none;
+	color: #fff;
+}
+.btn-login:hover,
+.btn-signup:hover {
+	cursor: pointer;
+}
