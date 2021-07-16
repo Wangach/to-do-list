@@ -8,14 +8,33 @@
 </head>
 <body>
 	<section id="cover">
-		<div id="holder">
+		<div id="sign-holder">
 			<div class="form-top">
-				
+				<h3>Create An Account</h3>
 			</div><!--/.form-top/-->
-			<form action="#">
-				<label for=""></label>
+			<form action="#" id="sign-form">
+				<div class="form-group">
+					<label for=""></label>
+					<input type="text" placeholder="First Name..." id="fn" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label for=""></label>
+					<input type="text" placeholder="Last Name..." id="ln" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label for=""></label>
+					<input type="email" placeholder="someone@example.com..." id="em" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label for=""></label>
+					<input type="password" placeholder="Password..." id="ps" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<input type="checkbox">
+				</div>
+				<button type="submit" class="btn btn-signup">Create</button>
 			</form>
-		</div><!--/#holder/-->
+		</div><!--/#sign-holder/-->
 	</section>
 	<script src="js/index.js"></script>
 </body> 
